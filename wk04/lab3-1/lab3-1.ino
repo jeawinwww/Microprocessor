@@ -26,7 +26,7 @@ void setup()
  } 
 void loop() 
 { 
-  for(int i=0;i<10;i++){
+  for(int i=9;i>=0;i--){
     setLed(ledshow[i]);
     Serial.println(i);
     delay(1000);}
